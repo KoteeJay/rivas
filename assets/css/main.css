@@ -905,10 +905,10 @@ section,
 --------------------------------------------------------------*/
 
 .hero {
+    background-image: url(../../library.jpg);
     width: 100%;
     position: relative;
     padding: 140px 0 0 0;
-    background-image: url(/assets/img/library.jpg);
     background-size: cover;
     object-position: center;
     background-position: center;
