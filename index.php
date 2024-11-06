@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,7 +73,8 @@
 
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <h2><span>Welcome to </span><span class="accent">Rivas Bookstores Ltd</span></h2>
-                        <p>Where Every Book Finds its Reader. Experience the world through the eyes of diverse authors. <br> Unlock imagination with every bookshelf you browse.</p>
+                        <p>Where Every Book Finds its Reader. Experience the world through the eyes of diverse authors. Unlock imagination with every bookshelf you browse. <br> <br>"We are dedicated to providing an extensive selection of books and journals,
+                            offering sales and bulk supplies across a diverse array of subjects to meet the needs of readers, researchers, and institutions alike."</p>
                         <div class="d-flex">
                             <a href="#about" class="btn-get-started">Discover more</a>
                         </div>
@@ -142,13 +146,13 @@
                 <div class="row gy-4">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3>Transparency</h3>
-                        <h5>At Rivas Bookstores Ltd we know that without transparency it will be difficult to maintain clients. And so we strive hard to be open with our customers</h5>
+                        <h5>At Rivas Bookstores Ltd we know that without transparency it will be difficult to maintain clients. And so we strive hard to be open with our customers.</h5>
                         <br>
                         <h3>Customers Satisfaction</h3>
-                        <h5>At Rivas Bookstores Ltd we know that without transparency it will be difficult to maintain clients. And so we strive hard to be open with our customers</h5>
+                        <h5>Because we see our customers as our biggest assets, we deliver every projects entrusted in our care to the satisfaction of our clients</h5>
                         <br>
-                        <h3>Quality Products</h3>
-                        <h5>At Rivas Bookstores Ltd we know that without transparency it will be difficult to maintain clients. And so we strive hard to be open with our customers</h5>
+                        <h3>Quality Products.</h3>
+                        <h5>Over the years, we have established and maintain contacts with foreign partners who are original Equipment manufacturers and publishers. Our books and equipment are sourced from our partners and deliver to our clients.</h5>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
                         <div class="content ps-0 ps-lg-5">
@@ -325,7 +329,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item  position-relative">
                             <div class="icon">
-                                <i class="bi bi-activity"></i>
+                                <i class="bi bi-journal-bookmark-fill"></i>
                             </div>
                             <h3>Books and Journals</h3>
                             <p>We supply Textbooks and Journals on all subjects and in any quantity to schools and private libraries.</p>
@@ -336,7 +340,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="bi bi-broadcast"></i>
+                                <i class="bi bi-easel"></i>
                             </div>
                             <h3>Library Equipment/Furniture</h3>
                             <p>We supply Fredfranklin Furnitures, Library Equipment and other office furnitures</p>
@@ -347,7 +351,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <i class="bi bi-easel"></i>
+                                <i class="bi bi-headphones"></i>
                             </div>
                             <h3>Consultancy</h3>
                             <p>We offer professional advice to clients on Lirary development, book sales and supply.</p>
@@ -366,7 +370,7 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Best selling bookd</h2>
+                <h2>Products</h2>
             </div>
             <!-- End Section Title -->
 
@@ -375,19 +379,17 @@
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
                     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Product</li>
-                        <li data-filter=".filter-branding">Branding</li>
+                        <li data-filter="*" class="filter-active">All Products</li>
                         <li data-filter=".filter-books">Books</li>
+                        <li data-filter=".filter-product">Furnitures</li>
                     </ul>
                     <!-- End Portfolio Filters -->
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/books-4.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-4.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
                                     <h4><a href="portfolio-details.html" title="More Details">The Women: A Novel</a></h4>
                                     <p>From the celebrated author of The Nightingale and The Four Winds comes Kristin Hannah's The Women―at once an intimate portrait of coming of age in a dangerous time and an epic tale of a nation divided.
@@ -401,20 +403,19 @@
                             <div class="portfolio-content h-100">
                                 <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin Series)</a></h4>
-                                    <p>Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn’t
-                                        have to be that way.</p>
+                                    <h4><a href="portfolio-details.html" title="More Details">Product name</a></h4>
+                                    <p>Product description</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Iron Flame (The Empyrean, 2)</a></h4>
-                                    <p>Discover the instant #1 New York Times bestseller! TV series now in development at MGM Amazon Studios with Michael B. Jordan’s Outlier Society.</p>
+                                    <h4><a href="portfolio-details.html" title="More Details">Product name</a></h4>
+                                    <p>Prosuct description</p>
                                 </div>
                             </div>
                         </div>
@@ -431,9 +432,9 @@
                         </div>
                         <!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/books-5.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-5.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
                                     <h4><a href="portfolio-details.html" title="More Details">Quantum Physics For Beginners: The Simple Guide to Discovering How Theories of Quantum Physics Can Change Your Everyday Life.</a></h4>
                                     <p>This book is a journey through space and time, to discover something new and extraordinary: Quantum Physics, its logic, its potential, its applications and its possible developments.</p>
@@ -444,21 +445,21 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Quantum Computing: An Applied Approach</a></h4>
-                                    <p>This book integrates the foundations of quantum computing with a hands-on coding approach to this emerging field; it is the first work to bring these strands together in an updated manner</p>
+                                    <h4><a href="portfolio-details.html" title="More Details">Product name</a></h4>
+                                    <p>Product description</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/product-4.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-4.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Anatomy & Physiology For Dummies (For Dummies (Math & Science)) (For Dummies (Lifestyle))</a></h4>
-                                    <p>Some people think that knowing about what goes on inside the human body can sap life of its mystery―which is too bad for them. </p>
+                                    <h4><a href="portfolio-details.html" title="More Details">Kickstep stool</a></h4>
+                                    <p>... </p>
                                 </div>
                             </div>
                         </div>
@@ -476,9 +477,9 @@
                         </div>
                         <!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/books-6.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-6.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
                                     <h4><a href="portfolio-details.html" title="More Details">The Housemaid's Secret</a></h4>
                                     <p>As he continues showing me their incredible penthouse apartment, I have a terrible feeling about the woman behind closed doors.</p>
@@ -489,21 +490,21 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/product-5.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-5.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">The Art of Public Speaking: 2023 Release</a></h4>
-                                    <p>The award-winning The Art of Public Speaking offers a time-tested approach that has made it the most widely used college textbook on its subject in the world.</p>
+                                    <h4><a href="portfolio-details.html" title="More Details">4 in 1 Reading carrel chair</a></h4>
+                                    <p>...</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
-                                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""></a>
+                                <a href="assets/img/portfolio/product-6.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-6.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Organic Chemistry, 3rd Edition</a></h4>
-                                    <p>In Organic Chemistry, 3rd Edition, Dr. David Klein builds on the phenomenal success of the first two editions, which presented his unique skills-based approach to learning organic chemistry.</p>
+                                    <h4><a href="portfolio-details.html" title="More Details">Fredfranklin Metal Bookshelves</a></h4>
+                                    <p>...</p>
                                 </div>
                             </div>
                         </div>
@@ -558,8 +559,8 @@
                                 <i class="bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Call Us</h3>
-                                    <p>08034760870</p>
-                                    <p>08026918719</p>
+                                    <p>+234 8034760870</p>
+                                    <p>+234 8026918719</p>
                                 </div>
                             </div>
                             <!-- End Info Item -->
@@ -568,8 +569,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h3>Email Us</h3>
-                                    <p>info@riversbookstore.com</p>
-                                    <p>joelsotres@gmail.com</p>
+                                    <p>rivasbookstoreltd@gmail.com</p>
                                 </div>
                             </div>
                             <!-- End Info Item -->
@@ -586,34 +586,29 @@
                         </div>
 
                     </div>
-
                     <div class="col-lg-8">
-                        <form action="" method="post" id="myForm" class="php-email-form" data-aos="fade" data-aos-delay="100">
+                        <form action="contact.php" method="POST" id="myForm" class="php-email-form" data-aos="fade" data-aos-delay="100">
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                                 </div>
 
                                 <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="8" placeholder="Message" required=""></textarea>
+                                    <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
                                 </div>
 
                                 <div class="col-md-12 text-center">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                    <button type="submit" class="contactBtn">Send Message</button>
-                                </div>
+                                <button type="submit" name="sendBtn" class="contactBtn">Send Message</button>
+                                <div class="bg-success text-white mt-3"><?php echo "$successMessage" ?></div>
 
                             </div>
                         </form>
@@ -638,7 +633,7 @@
                         <span class="sitename">Rivas Bookstore</span>
                     </a>
                     <p>Where Every Book Finds its Reader. Experience <br> the world through the eyes of diverse authors. <br> Unlock imagination with every bookshelf you browse.</p>
-
+                   
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
@@ -664,10 +659,13 @@
                 </div>
 
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                    <h4>Contact Us</h4>
-                    <p>87 Olu-Obasanjo Road </p>
-                    <p>Port Harcourt, Rivers State</p>
-                    <p>Nigeria</p>
+                    <h4>Our Socials</h4>
+                    <div class="social-links d-flex">
+                        <a href="https://x.com/Rivasbookstore"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61562880842694"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/rivasbookstoresltd/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://wa.me/message/ET5XJMM3Y3D7I1"><i class="bi bi-whatsapp"></i></a>
+                    </div>
                 </div>
 
             </div>
@@ -682,49 +680,9 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                console.log('Button clicked');
-                Swal.fire({
-                    title: "Good job!",
-                    text: "Thank you for contacting!",
-                    icon: "success"
-                });
-            });
-        });
-    </script> -->
-    <script>
-        $(document).ready(function() {
-            $('button').click(function() {
-                let isValid = true;
-
-                // Loop through each required input in the form
-                $('#myForm input[required]').each(function() {
-                    if ($(this).val() === '') {
-                        isValid = false;
-                    }
-                });
-
-                // Check if form is valid
-                if (isValid) {
-                    Swal.fire({
-                        title: "Success!",
-                        text: "Thank you for contacting!",
-                        icon: "success"
-                    });
-                } else {
-                    Swal.fire({
-                        icon: "error",
-                        title: "Oops...",
-                        text: "Please fill out the form",
-                    });
-                }
-            });
-        });
-    </script>
+    
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
@@ -736,6 +694,18 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        var messageText = "<?= $_SESSION['status'] ?? '';?>"
+        if(messageText != ''){
+            Swal.fire({
+            title: "Thank you",
+            text: messageText,
+            icon: "success"
+            });
+            <?php unset($_SESSION['status']); ?>
+        }
+    </script>
 
 </body>
 
